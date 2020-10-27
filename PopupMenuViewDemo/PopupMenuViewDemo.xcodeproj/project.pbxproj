@@ -7,37 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374E5626DEB112915E9E1CC2 /* Pods_PopupMenuViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417C06512FC6CCFFBA9C7990 /* Pods_PopupMenuViewDemo.framework */; };
 		DE2EA8E81EB33E0900C76D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EA8E71EB33E0900C76D7F /* main.m */; };
 		DE2EA8EB1EB33E0900C76D7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EA8EA1EB33E0900C76D7F /* AppDelegate.m */; };
 		DE2EA8EE1EB33E0900C76D7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EA8ED1EB33E0900C76D7F /* ViewController.m */; };
 		DE2EA8F11EB33E0900C76D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EA8EF1EB33E0900C76D7F /* Main.storyboard */; };
 		DE2EA8F31EB33E0900C76D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2EA8F21EB33E0900C76D7F /* Assets.xcassets */; };
 		DE2EA8F61EB33E0900C76D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2EA8F41EB33E0900C76D7F /* LaunchScreen.storyboard */; };
-		DE2EA9011EB33E0900C76D7F /* PopupMenuViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EA9001EB33E0900C76D7F /* PopupMenuViewDemoTests.m */; };
-		DE2EA90C1EB33E0A00C76D7F /* PopupMenuViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2EA90B1EB33E0A00C76D7F /* PopupMenuViewDemoUITests.m */; };
-		DE513EF41F137D6F00BE4CDE /* CYPopupMenuAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DE513EEF1F137D6F00BE4CDE /* CYPopupMenuAction.m */; };
-		DE513EF51F137D6F00BE4CDE /* CYPopupMenuOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE513EF11F137D6F00BE4CDE /* CYPopupMenuOverlayView.m */; };
-		DE513EF61F137D6F00BE4CDE /* CYPopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE513EF31F137D6F00BE4CDE /* CYPopupMenuView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DE2EA8FD1EB33E0900C76D7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE2EA8DB1EB33E0900C76D7F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE2EA8E21EB33E0900C76D7F;
-			remoteInfo = PopupMenuViewDemo;
-		};
-		DE2EA9081EB33E0A00C76D7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE2EA8DB1EB33E0900C76D7F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE2EA8E21EB33E0900C76D7F;
-			remoteInfo = PopupMenuViewDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		417C06512FC6CCFFBA9C7990 /* Pods_PopupMenuViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMenuViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9258F5A14B9AF88ACEBDAA78 /* Pods-PopupMenuViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMenuViewDemo.release.xcconfig"; path = "Target Support Files/Pods-PopupMenuViewDemo/Pods-PopupMenuViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97B29C2907A7AC0C45E25133 /* Pods-PopupMenuViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMenuViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-PopupMenuViewDemo/Pods-PopupMenuViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2EA8E31EB33E0900C76D7F /* PopupMenuViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupMenuViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2EA8E71EB33E0900C76D7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE2EA8E91EB33E0900C76D7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -48,18 +30,6 @@
 		DE2EA8F21EB33E0900C76D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2EA8F51EB33E0900C76D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2EA8F71EB33E0900C76D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE2EA8FC1EB33E0900C76D7F /* PopupMenuViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupMenuViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2EA9001EB33E0900C76D7F /* PopupMenuViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PopupMenuViewDemoTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		DE2EA9021EB33E0900C76D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE2EA9071EB33E0A00C76D7F /* PopupMenuViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupMenuViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2EA90B1EB33E0A00C76D7F /* PopupMenuViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PopupMenuViewDemoUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		DE2EA90D1EB33E0A00C76D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE513EEE1F137D6F00BE4CDE /* CYPopupMenuAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPopupMenuAction.h; sourceTree = "<group>"; };
-		DE513EEF1F137D6F00BE4CDE /* CYPopupMenuAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPopupMenuAction.m; sourceTree = "<group>"; };
-		DE513EF01F137D6F00BE4CDE /* CYPopupMenuOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPopupMenuOverlayView.h; sourceTree = "<group>"; };
-		DE513EF11F137D6F00BE4CDE /* CYPopupMenuOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPopupMenuOverlayView.m; sourceTree = "<group>"; };
-		DE513EF21F137D6F00BE4CDE /* CYPopupMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPopupMenuView.h; sourceTree = "<group>"; };
-		DE513EF31F137D6F00BE4CDE /* CYPopupMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPopupMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,33 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE2EA8F91EB33E0900C76D7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE2EA9041EB33E0900C76D7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				374E5626DEB112915E9E1CC2 /* Pods_PopupMenuViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060CA970297AE0B5FDF52D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417C06512FC6CCFFBA9C7990 /* Pods_PopupMenuViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1058B44CEF7B987B489E6BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B29C2907A7AC0C45E25133 /* Pods-PopupMenuViewDemo.debug.xcconfig */,
+				9258F5A14B9AF88ACEBDAA78 /* Pods-PopupMenuViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE2EA8DA1EB33E0900C76D7F = {
 			isa = PBXGroup;
 			children = (
 				DE2EA8E51EB33E0900C76D7F /* PopupMenuViewDemo */,
-				DE2EA8FF1EB33E0900C76D7F /* PopupMenuViewDemoTests */,
-				DE2EA90A1EB33E0A00C76D7F /* PopupMenuViewDemoUITests */,
 				DE2EA8E41EB33E0900C76D7F /* Products */,
+				C1058B44CEF7B987B489E6BA /* Pods */,
+				060CA970297AE0B5FDF52D27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DE2EA8E31EB33E0900C76D7F /* PopupMenuViewDemo.app */,
-				DE2EA8FC1EB33E0900C76D7F /* PopupMenuViewDemoTests.xctest */,
-				DE2EA9071EB33E0A00C76D7F /* PopupMenuViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +83,6 @@
 		DE2EA8E51EB33E0900C76D7F /* PopupMenuViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DE513EED1F137D6F00BE4CDE /* CYPopupMenu */,
 				DE2EA8E91EB33E0900C76D7F /* AppDelegate.h */,
 				DE2EA8EA1EB33E0900C76D7F /* AppDelegate.m */,
 				DE2EA8EC1EB33E0900C76D7F /* ViewController.h */,
@@ -132,38 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DE2EA8FF1EB33E0900C76D7F /* PopupMenuViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE2EA9001EB33E0900C76D7F /* PopupMenuViewDemoTests.m */,
-				DE2EA9021EB33E0900C76D7F /* Info.plist */,
-			);
-			path = PopupMenuViewDemoTests;
-			sourceTree = "<group>";
-		};
-		DE2EA90A1EB33E0A00C76D7F /* PopupMenuViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE2EA90B1EB33E0A00C76D7F /* PopupMenuViewDemoUITests.m */,
-				DE2EA90D1EB33E0A00C76D7F /* Info.plist */,
-			);
-			path = PopupMenuViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		DE513EED1F137D6F00BE4CDE /* CYPopupMenu */ = {
-			isa = PBXGroup;
-			children = (
-				DE513EF21F137D6F00BE4CDE /* CYPopupMenuView.h */,
-				DE513EF31F137D6F00BE4CDE /* CYPopupMenuView.m */,
-				DE513EEE1F137D6F00BE4CDE /* CYPopupMenuAction.h */,
-				DE513EEF1F137D6F00BE4CDE /* CYPopupMenuAction.m */,
-				DE513EF01F137D6F00BE4CDE /* CYPopupMenuOverlayView.h */,
-				DE513EF11F137D6F00BE4CDE /* CYPopupMenuOverlayView.m */,
-			);
-			name = CYPopupMenu;
-			path = ../../CYPopupMenu;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2EA9101EB33E0A00C76D7F /* Build configuration list for PBXNativeTarget "PopupMenuViewDemo" */;
 			buildPhases = (
+				DE41C9D0B0C9B841734A0A68 /* [CP] Check Pods Manifest.lock */,
 				DE2EA8DF1EB33E0900C76D7F /* Sources */,
 				DE2EA8E01EB33E0900C76D7F /* Frameworks */,
 				DE2EA8E11EB33E0900C76D7F /* Resources */,
+				73C241F3DE25315F5FCFD30D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,42 +125,6 @@
 			productName = PopupMenuViewDemo;
 			productReference = DE2EA8E31EB33E0900C76D7F /* PopupMenuViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DE2EA8FB1EB33E0900C76D7F /* PopupMenuViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE2EA9131EB33E0A00C76D7F /* Build configuration list for PBXNativeTarget "PopupMenuViewDemoTests" */;
-			buildPhases = (
-				DE2EA8F81EB33E0900C76D7F /* Sources */,
-				DE2EA8F91EB33E0900C76D7F /* Frameworks */,
-				DE2EA8FA1EB33E0900C76D7F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE2EA8FE1EB33E0900C76D7F /* PBXTargetDependency */,
-			);
-			name = PopupMenuViewDemoTests;
-			productName = PopupMenuViewDemoTests;
-			productReference = DE2EA8FC1EB33E0900C76D7F /* PopupMenuViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE2EA9061EB33E0900C76D7F /* PopupMenuViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE2EA9161EB33E0A00C76D7F /* Build configuration list for PBXNativeTarget "PopupMenuViewDemoUITests" */;
-			buildPhases = (
-				DE2EA9031EB33E0900C76D7F /* Sources */,
-				DE2EA9041EB33E0900C76D7F /* Frameworks */,
-				DE2EA9051EB33E0900C76D7F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE2EA9091EB33E0A00C76D7F /* PBXTargetDependency */,
-			);
-			name = PopupMenuViewDemoUITests;
-			productName = PopupMenuViewDemoUITests;
-			productReference = DE2EA9071EB33E0A00C76D7F /* PopupMenuViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,16 +140,6 @@
 						DevelopmentTeam = ZF6TVZV5SQ;
 						ProvisioningStyle = Automatic;
 					};
-					DE2EA8FB1EB33E0900C76D7F = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DE2EA8E21EB33E0900C76D7F;
-					};
-					DE2EA9061EB33E0900C76D7F = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DE2EA8E21EB33E0900C76D7F;
-					};
 				};
 			};
 			buildConfigurationList = DE2EA8DE1EB33E0900C76D7F /* Build configuration list for PBXProject "PopupMenuViewDemo" */;
@@ -251,6 +147,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -260,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				DE2EA8E21EB33E0900C76D7F /* PopupMenuViewDemo */,
-				DE2EA8FB1EB33E0900C76D7F /* PopupMenuViewDemoTests */,
-				DE2EA9061EB33E0900C76D7F /* PopupMenuViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,66 +172,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE2EA8FA1EB33E0900C76D7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE2EA9051EB33E0900C76D7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73C241F3DE25315F5FCFD30D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopupMenuViewDemo/Pods-PopupMenuViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYPopupMenuView/CYPopupMenuView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYPopupMenuView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopupMenuViewDemo/Pods-PopupMenuViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE41C9D0B0C9B841734A0A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopupMenuViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE2EA8DF1EB33E0900C76D7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE513EF61F137D6F00BE4CDE /* CYPopupMenuView.m in Sources */,
-				DE513EF51F137D6F00BE4CDE /* CYPopupMenuOverlayView.m in Sources */,
 				DE2EA8EE1EB33E0900C76D7F /* ViewController.m in Sources */,
-				DE513EF41F137D6F00BE4CDE /* CYPopupMenuAction.m in Sources */,
 				DE2EA8EB1EB33E0900C76D7F /* AppDelegate.m in Sources */,
 				DE2EA8E81EB33E0900C76D7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE2EA8F81EB33E0900C76D7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE2EA9011EB33E0900C76D7F /* PopupMenuViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE2EA9031EB33E0900C76D7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE2EA90C1EB33E0A00C76D7F /* PopupMenuViewDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE2EA8FE1EB33E0900C76D7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE2EA8E21EB33E0900C76D7F /* PopupMenuViewDemo */;
-			targetProxy = DE2EA8FD1EB33E0900C76D7F /* PBXContainerItemProxy */;
-		};
-		DE2EA9091EB33E0A00C76D7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE2EA8E21EB33E0900C76D7F /* PopupMenuViewDemo */;
-			targetProxy = DE2EA9081EB33E0A00C76D7F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE2EA8EF1EB33E0900C76D7F /* Main.storyboard */ = {
@@ -448,6 +340,7 @@
 		};
 		DE2EA9111EB33E0A00C76D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B29C2907A7AC0C45E25133 /* Pods-PopupMenuViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -461,6 +354,7 @@
 		};
 		DE2EA9121EB33E0A00C76D7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9258F5A14B9AF88ACEBDAA78 /* Pods-PopupMenuViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -469,52 +363,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.PopupMenuViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DE2EA9141EB33E0A00C76D7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PopupMenuViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.PopupMenuViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupMenuViewDemo.app/PopupMenuViewDemo";
-			};
-			name = Debug;
-		};
-		DE2EA9151EB33E0A00C76D7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PopupMenuViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.PopupMenuViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupMenuViewDemo.app/PopupMenuViewDemo";
-			};
-			name = Release;
-		};
-		DE2EA9171EB33E0A00C76D7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PopupMenuViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.PopupMenuViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PopupMenuViewDemo;
-			};
-			name = Debug;
-		};
-		DE2EA9181EB33E0A00C76D7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PopupMenuViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.PopupMenuViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PopupMenuViewDemo;
 			};
 			name = Release;
 		};
@@ -535,24 +383,6 @@
 			buildConfigurations = (
 				DE2EA9111EB33E0A00C76D7F /* Debug */,
 				DE2EA9121EB33E0A00C76D7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE2EA9131EB33E0A00C76D7F /* Build configuration list for PBXNativeTarget "PopupMenuViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE2EA9141EB33E0A00C76D7F /* Debug */,
-				DE2EA9151EB33E0A00C76D7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE2EA9161EB33E0A00C76D7F /* Build configuration list for PBXNativeTarget "PopupMenuViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE2EA9171EB33E0A00C76D7F /* Debug */,
-				DE2EA9181EB33E0A00C76D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

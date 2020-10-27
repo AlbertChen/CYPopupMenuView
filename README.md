@@ -1,4 +1,9 @@
 # CYPopupMenuView
+
+![](https://img.shields.io/cocoapods/v/CYPopupMenuView.svg?style=flat)
+![](https://img.shields.io/cocoapods/p/CYPopupMenuView.svg?style=flat)
+![](https://img.shields.io/badge/language-ObjectiveC-orange.svg)
+
 CYPopupMenuView
 
 Top

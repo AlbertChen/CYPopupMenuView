@@ -1,0 +1,16 @@
+PODS:
+  - CYPopupMenuView (0.0.1)
+
+DEPENDENCIES:
+  - CYPopupMenuView (from `../`)
+
+EXTERNAL SOURCES:
+  CYPopupMenuView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYPopupMenuView: 09a4d3742b6d31755419112df0b1ad827bea7cb4
+
+PODFILE CHECKSUM: 3b2fb589eeed6f5ab14990a7f687a93ad4c198e1
+
+COCOAPODS: 1.9.1
